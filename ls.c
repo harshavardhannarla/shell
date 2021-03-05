@@ -143,7 +143,7 @@ int is_a_filter(const struct dirent *p)
 
 
 
-void ls_implt()
+void ls_implt(int cnt_pieces,char*pieces[])
 {    
      char *cur_path;
      bool is_a=false,is_l=false;

@@ -82,7 +82,7 @@ void store_history()
 
    
 
-void hist_implt()
+void hist_implt(int cnt_pieces, char *pieces[])
 { 
     FILE * frmfptr;
    char path[200];

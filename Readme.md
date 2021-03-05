@@ -12,6 +12,8 @@
 -> functions.c:
   . string tokeninizig function
   . cd , pinfo, echo  implementations
+  . setenv,unsetenv,jobs,kjob has been implemneted
+  .fg and bg , overkill, quit
 
 -> ls.c:
   . whole ls implementation has been done here
@@ -23,3 +25,6 @@
 
 -> If & is given with builtin commands like(ls &, cd &, pid &,...), they have been assumed as foreground ....
 
+->ctrl-z,ctrl-c has been handled by creating handlers
+
+->last working directory is achieved through storing cwd after     implentation of command.
