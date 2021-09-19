@@ -1,17 +1,5 @@
-->make command in the terminal creates the a.out executable file for running the shell
+### Make command in the terminal creates the a.out executable file for running the shell
 
-
-## Usage
-
-1. make
-2. ./a.out
-
-
-## Features
-
-### ; separated commands
-
-- You can run more than 1 shell command in  a single line by separating them with a `;`
 
 ### ls
 
@@ -20,6 +8,9 @@
 - Add `-a` to display the hidden contents.
 - The directories and flags can be mentioned in any order after ls
 
+### ; separated commands
+
+- You can run more than 1 shell command in  a single line by separating them with a `;`
 ### cd
 
 - change the current working directory to the relative or the absolute path passed as argument.
